@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/12.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/estilos2.css">
+    <link rel="stylesheet" href="CSS/estilo3s.css">
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <title>WebDesign Express</title>
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-expand-sm bg-gradient">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/12.png" alt="Logo">WebDesign Express
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" onclick="scrollToSection('#inicio')">
+                            <p id="menu">Inicio</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#dos " class="nav-link" onclick="scrollToSection( '#dos')">
+                            <p id="menu">Acerca de</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tres " class="nav-link" onclick="scrollToSection( '#tres')">
+                            <p id="menu">Servicios</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToSection( '#cuatro')">
+                            <p id="menu">Equipo</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToSection( '#cico')">
+                            <p id="menu">Contacto</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section half-section">
+        <div class="background" id="inicio">
+            <div class="content">
+                <h1 class="text-left" id="tipo">Mejores soluciones para su negocio</h1>
+                <p class="my-3  font-weight-bold justify-text" id="tipo" id="color">¡Bienvenidos! En nuestro equipo,
+                    somos un grupo de diseñadores talentosos
+                    <br> dedicados a brindar las mejores soluciones para su negocio a
+                    <br> través del desarrollo de sitios web con Bootstrap.
+                </p>
+            </div>
+            <img class="animated-image" src="img/hero-img.png" alt="Imagen animada">
+        </div>
+    </div>
+
+    <div class="section" id="dos">
+        <div class="content" id="nosotros">
+            <h1 class="text-center title">Acerca de nosotros</h1>
+            <P></P>
+            <P></P>
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-5">
+                    <p class="left">Somos un equipo apasionado de diseñadores creativos y expertos en el uso de
+                        Bootstrap para crear experiencias web excepcionales. Nuestra misión es combinar la funcionalidad
+                        y la estética para ofrecer diseños modernos y atractivos que cumplan con los estándares más
+                        altos de calidad</p>
+                </div>
+                <div class="col-1">
+
+                </div>
+                <div class="col-5">
+                    <p class="right">Con una amplia experiencia en diseño web y una profunda comprensión de las últimas
+                        tendencias y tecnologías, hemos utilizado Bootstrap para desarrollar una amplia gama de
+                        proyectos exitosos. Nuestro enfoque se basa en la personalización de Bootstrap para adaptarlo a
+                        las necesidades específicas de nuestros clientes y crear diseños únicos y memorables.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <h2 class="text-right ">Aptitudes</h2>
+            <div class="row">
+                <div class="col-5">
+                    <div class="image-center">
+                        <img src="img/why-us.png" alt="Descripción de la imagen" class="imaAp">
+                    </div>
+                </div>
+                <div class="col-6" id="ap">
+                    <p id="ap2">En WebDesign Express, valoramos las habilidades y aptitudes de nuestro equipo de
+                        diseñadores, ya que creemos que son fundamentales para brindar las mejores soluciones a nuestros
+                        clientes. </p>
+                    <ul>
+                        <li
+                            data-description="Nuestros diseñadores web son expertos en la creación de interfaces visuales atractivas y funcionale">
+                            Experto en diseño web.</li>
+                        <li
+                            data-description="Valoramos a los diseñadores que tienen experiencia y habilidades en el uso del framework Bootstrap">
+                            Conocimientos de Bootstrap.</li>
+                        <li
+                            data-description=" Nuestro equipo se destaca por su capacidad para pensar de manera creativa y encontrar soluciones innovadoras.">
+                            Pensamiento creativo.</li>
+                        <li data-description="Valoramos las habilidades de comunicación efectiva en nuestro equipo. ">
+                            Habilidades de comunicación.</li>
+                        <li data-description="Fomentamos un ambiente de trabajo colaborativo en nuestra empresa.">
+                            Trabajo en equipo.</li>
+                    </ul>
+                </div>
+                <div class=" col-1">
+                </div>
+
+
+            </div>
+            <h2 class="text-left">Habilidades</h2>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-6">
+                    <p>En WebDesign Express, nos enorgullece contar con un equipo de diseñadores que poseen una amplia
+                        gama de habilidades técnicas, incluyendo expertise en HTML, CSS, JavaScript y Photoshop.</p>
+
+                    <div class="skills-chart">
+                        <div class="skill">
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%;"></div>
+                                <div class="skill-percentage">100%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                                <div class="skill-percentage">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                                <div class="skill-percentage">75%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Photoshop</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%;"></div>
+                                <div class="skill-percentage">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-center">
+                        <img src="img/skills.png" alt="Descripción de la imagen"class="highlighted-imag" >
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="section " id="tres">
+        <div class="background" id="Servi"></div>
+        <div class="content" id="tre">
+            <h1 id="serh1">servicio</h1>
+
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <p id="parrafo">En WebDesign Express, ofrecemos una amplia gama de servicios de diseño web para
+                        satisfacer las
+                        necesidades de nuestros clientes. Nuestro equipo de diseñadores talentosos y expertos en
+                        desarrollo web se esfuerza por brindar soluciones personalizadas y de alta calidad para impulsar
+                        la presencia en línea de su negocio.</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8" id="tb">
+                    <table>
+                        <td><img src="img/desarrollo-web.png" id="imtd">
+                            <p id="ptd">Diseño de sitios web personalizados</p>
+                            <p id="ptd">Creación de sitios web únicos y a medida que reflejan su identidad de marca.</p>
+                        </td>
+                        <td><img src="img/bbdd.png" id="imtd">
+                            <p id="ptd">Integración de contenido y gestión de sistemas</p>
+                            <p id="ptd">Implementación de CMS y sistemas de gestión de bases de datos.</p>
+                        </td>
+                        <td><img src="img/web-responsive.png" id="imtd">
+                            <p id="ptd">Desarrollo de sitios web responsivos</p>
+                            <p id="ptd">Creación de sitios web que se adaptan a diferentes dispositivos y pantallas</p>
+                        </td>
+                        <td><img src="img/segu.png" id="imtd">
+                            <p id="ptd">Mantenimiento y soporte continuo</p>
+                            <p id="ptd">Servicios de actualización, seguridad y soporte técnico</p>
+                        </td>
+                    </table>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section" id="cuatro">
+        <div class="background" id="equi"></div>
+        <div class="content">
+            <h1 class="text-center" id="equipp">Equipo</h1>
+            <br>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6" id="equ1">
+                    <p id="pequi">En WebDesign Express, contamos con un equipo excepcional de diseñadores y
+                        desarrolladores web que han demostrado su experiencia y habilidades en la creación de soluciones
+                        digitales de alta calidad. Nuestro equipo está compuesto por profesionales talentosos y
+                        comprometidos que trabajan en estrecha colaboración para ofrecer resultados sobresalientes a
+                        nuestros clientes.</p>
+
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <div class="row align-items-center" id="equ1">
+                        <div class="col-4"><img src="img/perfil.png" id="imtd"></div>
+                        <div class="col-8">
+                            <h3 class="text-center">Jiménez Jijon Edgar David</h3>
+                            <p id="pequi">Edgar es un diseñador web altamente creativo y apasionado que ha estado en la
+                                industria del diseño durante más de una década. Con su enfoque en el diseño de
+                                interfaces de usuario intuitivas y estéticamente agradables, ha creado numerosos sitios
+                                web impresionantes para clientes de diversas industrias. Su atención meticulosa a los
+                                detalles y su habilidad para captar la esencia de la marca de nuestros clientes.</p>
+                            <hr><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="row align-items-center" id="equ1">
+                        <div class="col-4"><img src="img/perfil.png" id="imtd"></div>
+                        <div class="col-8">
+                            <h3 class="text-center">Jorge Pérez Sánchez</h3>
+                            <p id="pequi">Jorge es un diseñador gráfico talentoso con un ojo afilado para el diseño
+                                visual y la composición. Su enfoque meticuloso en la estética y el equilibrio visual se
+                                traduce en diseños web atractivos y a medida. Jorge es conocido por su habilidad para
+                                interpretar las ideas y los conceptos de los clientes, y transformarlos en diseños
+                                gráficos y logotipos únicos que representan fielmente la identidad de la marca.
+
+                            </p>
+                            <hr><br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="cico">
+        <div class="background" id="equipo"></div>
+        <div class="content">
+            <h1 class="text-center" id="rt">Contacto</h1>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="col-4">
+
+                            <img src="img/correo.png" id="imgconta" alt="Icono de correo">
+                            <br><br><br><br>
+
+                            <img src="img/llamada-telefonica.png" id="imgconta" alt="Icono de correo">
+                            <br><br><br><br><br>
+                            <img src="img/hogar.png" id="imgconta" alt="Icono de correo">
+                        </div>
+                        <div class="col-8">
+                            <p id="ticonta">Correo:</p>
+                            <p id="teconta">WebDesignExpress@gmail.com</p>
+                            <hr>
+                            <p id="ticonta">Telefono:</p>
+                            <p id="teconta">1234567890</p>
+                            <hr>
+                            <p id="ticonta">Dirección:</p>
+                            <p id="teconta">Francisco I. Madero, Instituto Tecnologico de Oaxaca, 68033 Oaxaca de
+                                Juárez, Oax.</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-5">
+                    <div class="row align-items-center" id="cont2">
+
+                        <div class="col-9">
+
+                            <form>
+                                <div class="form-group row" onsubmit="return verificarUsuario()">
+                                    <label for="nombre" class="col-sm-2 col-form-label" id="labeconta">Nombre:</label>
+                                    <div class="col-sm-9" id="margein">
+                                        <input type="text" class="form-control" id="nombre" required>
+                                        <br>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label for="correo" class="col-sm-2 col-form-label" id="labeconta">Correo:</label>
+                                    <div class="col-sm-9" id="margein">
+                                        <input type="email" class="form-control" id="correo" required>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="form-group row" >
+                                    <label for="asunto" class="col-sm-2 col-form-label" id="labeconta">Asunto:</label>
+                                    <div class="col-sm-9" id="margein">
+                                        <input type="text" class="form-control" id="asunto" required>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="mensaje" class="col-sm-2 col-form-label" id="labeconta">Mensaje:</label>
+                                    <div class="col-sm-9" id="margein">
+                                    <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                    <br>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="botoon">Enviar</button>
+                            </form>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="colofondo"class="border border-dark rounded" >
+        <div class="container">
+          <div class="row">
+            <div class="col-9">
+                <p id="colo">&copy; 2023 WebDesign Express. Todos los derechos reservados.</p>
+                        </div>
+                        <div class="col-2">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/google.png" id="imgconta" alt="Icono de correo">
+                                </div>
+                                <div class="col-4"><img src="img/facebook.png" id="imgconta" alt="Icono de correo"></div>
+                                <div class="col-4"><img src="img/microsoft.png" id="imgconta" alt="Icono de correo"></div>
+                            </div>
+                            
+                            
+                        </div>
+          </div>
+        </div>
+      </footer>
+      
+      
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+.navbar {
+    background-color: #16bed4b3;
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(78, 195, 211, 0.7);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Color de texto normal */
+    transition: color 0.3s ease;
+}
+
+#menu:hover {
+    color: #ffff00; /* Color de texto al pasar el cursor por encima */
+    font-size: 25px;
+}
+
+.navbar-brand img {
+    height: 30px; /* Ajusta el tamaño de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Alinea los elementos a la derecha */
+}
+#menu{
+    color: black;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.navbar-brand img {
+    height: 50px; /* Ajusta el tamaño de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    animation: float 2s ease-in-out infinite; /* Animación de rotación continua */
+}
+@keyframes float {
+    10% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden; /* Para recortar la forma elíptica */
+}
+
+#dos{
+    
+  justify-content: center;
+  align-items: center;
+  height: 180vh;
+}
+
+#inicio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 100%;
+    background-color: #16bed4b3;
+    clip-path: ellipse(100% 90% at 50% 0%);
+    z-index: -1;
+ 
+
+}
+
+.half-section {
+    height: 50vh;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    left:  30px; /* Mueve el contenido 5px a la derecha */
+}
+
+.animated-image {
+    position: absolute;
+    top: 0;
+    right: 350px; /* Ajusta la distancia desde el lado derecho */
+    width: 330px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    animation: slide-in 1s ease-in-out infinite alternate;
+}
+.animated-image2 {
+    position: absolute;
+    top: 77%;
+    right: 50%; /* Ajusta la distancia desde el lado derecho */
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+   
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px); /* Ajusta la distancia de desplazamiento */
+    }
+}
+
+#tipo{
+    margin-left: 1px; /* Mueve el encabezado y el párrafo 5px a la derecha */
+    
+}
+
+.justify-text {
+    display: inline-block;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgb(19, 18, 18);
+}
+
+
+  #nosotros{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .left {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  
+  .right {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica;
+    margin-right: 50px;
+  }
+  
+  .image-center {
+    text-align: center;
+  }
+  
+  .image-center img {
+    max-width: 100%;
+    height: auto;
+  }
+  .title {
+    position: relative;
+    color:#022441;
+  }
+  
+  .title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 4px;
+    background-color: #044c88;
+  }
+  #ap{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica;
+   
+  }
+  
+  .text-right {
+    text-align: right;
+    margin-left: 30%;
+  }
+  .imaAp {
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    width: 500px; /* Modifica el ancho de la imagen */
+    position: relative; /* Añade posición relativa */
+    top: -40px; /* Modifica la posición vertical */
+    left: 40px;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .text-left {
+    text-align: left;
+    margin-right: 35%;
+  }
+  
+  .skills-chart {
+    margin-top: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .skill-bar {
+    background-color: #797474;
+    height: 6px;
+    border-radius: 3px;
+    position: relative;
+    width: 90%;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  
+  .skill-percentage {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-60%);
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  #Ha{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  
+ 
+
+
+    
